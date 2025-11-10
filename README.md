@@ -35,6 +35,9 @@ cd backend-laravel
 
 cp .env.example .env
 # Ajuste as variáveis de banco no .env
+DB_DATABASE=meu_mercado
+DB_USERNAME=root
+DB_PASSWORD=senha
 
 php artisan key:generate
 php artisan migrate
