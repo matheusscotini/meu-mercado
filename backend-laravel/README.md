@@ -28,7 +28,7 @@ Este projeto implementa um sistema simples de cadastro de pedidos de supermercad
 
 ## Como rodar o projeto
 
-### 1. Backend (Laravel)
+### Backend (Laravel)
 
 ```bash
 cd backend-laravel
@@ -39,15 +39,7 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 
+# (Opcional) carregar lista de produtos
 php artisan db:seed --class=ProductSeeder
 
 php artisan serve
-
-``` 
-### 2. Frontend (React)
-
-```
-cd frontend-react
-npm install
-npm run dev
-```

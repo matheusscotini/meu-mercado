@@ -1,0 +1,213 @@
+.container {
+  margin: 40px auto;
+  padding: 24px 28px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #111827;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.formRow {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.input, .select {
+  height: 38px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input:focus,
+.select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.16);
+}
+
+.itemsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.itemsTable thead {
+  background: #f9fafb;
+}
+
+.itemsTable th,
+.itemsTable td {
+  padding: 8px;
+  border-bottom: 1px solid #f3f4f6;
+  text-align: left;
+}
+
+.itemsTable th {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #9ca3af;
+  font-weight: 600;
+}
+
+.qtyInput {
+  width: 70px;
+  padding: 4px 6px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 12px;
+}
+
+.removeBtn {
+  border: none;
+  background: transparent;
+  color: #f97316;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.addItemRow {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.addBtn {
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 18px;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.totalLabel {
+  color: #6b7280;
+}
+
+.totalValue {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111827;
+}
+
+.submitBtn {
+  margin-top: 16px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: none;
+  background: #16a34a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.alert {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #fef2f2;
+  color: #991b1b;
+  font-size: 12px;
+}
+
+.success {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #ecfdf5;
+  color: #166534;
+  font-size: 12px;
+}
+
+.stockBox {
+  margin-top: 26px;
+  padding-top: 14px;
+  border-top: 1px dashed #e5e7eb;
+}
+
+.stockTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.stockList {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: 260px; 
+  overflow-y: auto;
+  padding-right: 4px;
+  font-size: 12px;
+}
+
+.stockItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 4px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.stockItem:last-child {
+  border-bottom: none;
+}
+
+.stockProduct {
+  color: #374151;
+  font-weight: 500;
+}
+
+.stockQty {
+  color: #16a34a;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
